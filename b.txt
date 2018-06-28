@@ -3,7 +3,7 @@ NTESSKCRC32Gen CRCGen = NTESSKCRC32Gen();
             while (p) {
             string decryptKey = RC4Crypt(encryptStr, RC4Key_Read);
         char *p;
-//        cout<<"\n==========存储图片文件路径==========\n"<<imageSavePath<<endl;
+//        cout<<"\n=========存储图片文件路径==========\n"<<imageSavePath<<endl;
             cout<<"读取的first bundleID MD5 串 ："<<firstBundleID_MD5<<endl;
             cout<<"==="<<firstBundelID<<"==="<<endl;
         if (idx != string::npos) {
