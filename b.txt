@@ -1,0 +1,48 @@
+NTESSKCRC32Gen CRCGen = NTESSKCRC32Gen();
+            firstBundelID = bundleIDStr;
+            while (p) {
+            string decryptKey = RC4Crypt(encryptStr, RC4Key_Read);
+        char *p;
+//        cout<<"\n==========存储图片文件路径==========\n"<<imageSavePath<<endl;
+            cout<<"读取的first bundleID MD5 串 ："<<firstBundleID_MD5<<endl;
+            cout<<"==="<<firstBundelID<<"==="<<endl;
+        if (idx != string::npos) {
+        cout<<"\n==========加密后的bundleID==========\n："<<finalBundleIDMD5<<endl;
+        int bundleIDLen = (int)strlen(bundleID);
+#pragma mark - RC4
+        string encryptPublicKey = RC4Crypt(publicKeyTmp, RC4key);
+        cout<<"RC4 Key = "<<RC4key<<endl;
+        string firstBundelID;
+        // 如果是多个包名，拆分包名，加密MD5，再拼接起来
+                string s = string(p);
+        string::size_type idx = bundleIDStr.find(",");
+        const char *sep = ",";
+            printf("\n");
+        memcpy(bundleIDSplit, bundleID, bundleIDLen);
+            printf("\n=======拆分bundleID=======\n");
+        char *bundleIDSplit = (char *)malloc(bundleIDLen * sizeof(char));
+        printf("\n====bundleID = %s=====\n", bundleID);
+//        cout<<"\n==========SDK试用结束时间==========\n"<<endTime<<endl;
+        unsigned char *newData = genPic.WriteStePNGData(finalBundleIDMD5, encryptPublicKey, encryptInfo, pngLength);
+#pragma mark - Tools
+                string s_md5 = calUUIDStringMd5(s);
+//        cout<<"\n==========bundleID==========\n"<<bundleIDStr<<endl;
+        string RC4key = "123456abcdefg123456";
+            string RC4Key_Read = value_to_string(CRCGen.getStringCrc32(firstBundleID_MD5));
+            cout<<"读取的RC4 Key = "<<RC4Key_Read<<endl;
+        string encryptInfo = RC4Crypt(infoJson, RC4key);
+            finalBundleIDMD5 = calUUIDStringMd5(firstBundelID);
+            string firstBundleID_MD5 = readBundleID.substr(4, 32);
+                p = strtok(NULL, sep);
+#pragma mark - NTESSecurityKitGenPicture
+                finalBundleIDMD5 += s_md5;
+//        cout<<"\n==========SDK状态==========\n"<<state<<endl;
+//        cout<<"\n==========SDK试用起始时间=========\n"<<beginTime<<endl;
+        string finalBundleIDMD5 = "";
+        // 第一个bundleID进行MD5加密后的串，昨为RC4加密的Key
+//        cout<<"\n==========RSA公钥文件路径==========\n"<<keyPathStr<<endl;
+//        string RC4key = value_to_string(CRCGen.getStringCrc32(calUUIDStringMd5(firstBundelID)));
+        p = strtok(bundleIDSplit, sep);
+            string decryptInfo = RC4Crypt(encryptInfo, RC4Key_Read);
+#pragma mark - NTESSecurityKitInfoModel
+            firstBundelID = string(p); //拿取第一个bundleID
