@@ -1,5 +1,4 @@
-NTESSKCRC32Gen CRCGen = NTESSKCRC32Gen();
-            firstBundelID = bundleIDStr;
+NTESSKCRC32Gen CRCGen = NTESSKCRC32Gen();            firstBundelID = bundleIDStr;
             while (p) {
             string decryptKey = RC4Crypt(encryptStr, RC4Key_Read);
         char *p;
